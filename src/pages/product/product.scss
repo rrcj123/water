@@ -1,0 +1,80 @@
+page-product {
+  .xia{
+    background: #f5f5f5;
+    .kuai {
+      padding: 0 10px;
+      border-bottom: 1px solid rgb(234, 234, 234);
+      background: white;
+      margin-bottom: 8px;
+      display: flex;
+      flex-direction: column;
+    }
+    .biaoti {
+      padding-top: 10px;
+      height: 34px;
+      margin-bottom: 6px;
+      font-size: 18px;
+    }
+    .biaoti_xia{
+      margin: 6px 0;
+      li{
+        width: 50%;
+        text-align: center;
+        box-sizing: border-box;
+      }
+      .jiage {
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .red2{
+        font-weight: 400;
+      }
+      .jf{
+        font-size: 12px;
+        color: #888888;
+      }
+    }
+    .kuai2{
+      height: 50px;
+      line-height: 50px;
+      li{
+        width: 33.3%;
+        text-align: center;
+        color: #999;
+      }
+    }
+    .xia_3{
+      padding-top: 10px;
+      .guige{
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 9.6px;
+      }
+      .kuai3{
+        padding-bottom: 15px;
+        li{
+          width: 80px;
+          text-align: center;
+          padding: 5px 0;
+          span{
+            display: inline-block;
+            width: 70px;
+            height: 26px;
+            border: 1px solid #999;
+            border-radius: 10px;
+            padding: 2px 5px;
+            font-size: 12px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+  .money{
+    flex-direction: row !important;
+    padding: 5px 0 !important;
+    button{
+      width: 50%;
+    }
+  }
+}

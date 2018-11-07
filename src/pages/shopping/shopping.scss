@@ -1,0 +1,42 @@
+page-shopping {
+  ion-card{
+    .shopping_box{
+      padding: 0 10px;
+      li{
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid #999;
+        &:last-child{
+          border-bottom: 0px solid #999;
+        }
+        .tupian{
+          width: 130px;
+          height: 130px;
+          padding: 15px;
+        }
+        .tp_right{
+          padding-top: 16px;
+          h3{
+            margin: 2px 0;
+            a{
+              text-decoration: none;
+              font-size: 13px;
+              font-weight: 600;
+              color: #000;
+            }
+          }
+          p{
+            margin: 0;
+            margin-bottom: 4px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .jiesuan{
+    width: 95%;
+    margin: 0 2.5%;
+    margin-bottom: 30px;
+  }
+}

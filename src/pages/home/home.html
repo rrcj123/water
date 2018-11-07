@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>超大的大商城</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <!--轮播-->
+  <ion-slides style="height: auto" autoplay="2000" loop=true pager=true effect="fade" speed=2000>
+    <ion-slide>
+      <img src="https://img.rrcj123.com/water/imgs/bing-1.jpg" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="https://img.rrcj123.com/water/imgs/bing-2.jpg" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="https://img.rrcj123.com/water/imgs/bing-3.jpg" alt="">
+    </ion-slide>
+  </ion-slides>
+
+  <div class="box">
+    <ul>
+      <li *ngFor="let item of list">
+        <div>
+          <div>
+            <a href="javascript:;" [navPush]="product">
+              <img class="shangpin" [src]="item.img_url" />
+              <h3>{{item.title}}</h3>
+            </a>
+            <div>
+              <span class="jiage">￥{{item.danjia}}</span>
+              <span class="jifen">积分:{{item.jifen}}</span>
+            </div>
+            <hr />
+            <ol>
+              <li><a href="javascript:;"><img src="https://img.rrcj123.com/water/imgs/icon1.png" class="am-img-responsive" /></a></li>
+              <li><a href="javascript:;" (click)="fenxiang()"><img src="https://img.rrcj123.com/water/imgs/icon2.png" class="am-img-responsive" /></a></li>
+              <li><a href="javascript:;"><img src="https://img.rrcj123.com/water/imgs/icon3.png" class="am-img-responsive"/></a></li>
+            </ol>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</ion-content>
+

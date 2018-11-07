@@ -1,0 +1,42 @@
+page-msg {
+  ul{
+    li{
+      display: flex;
+      padding: 10px 10px 0;
+      justify-content: space-between;
+      width: 100%;
+      img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid rgb(222,222,222);
+        margin: 3px;
+      }
+      .nr{
+        &>div{
+          width: 307px;
+          padding: 15px;
+        }
+        border: 1px solid rgb(222,222,222);
+        header{
+          border-bottom: 1px solid rgb(222,222,222);
+          &>div{
+            width: 307px;
+            padding: 10px 15px;
+            background: rgb(248,248,248);
+            span{
+              font-weight: 700;
+              font-size: 13px;
+              color: #999;
+            }
+            time{
+              float: right;
+              color: #999;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+page-personal {
+  .beijing{
+    background: linear-gradient(rgb(141, 140, 158) 0%, rgb(242, 201, 199) 100%);
+    height: 120px;
+    display: flex;
+    .touxiang{
+      width: 30%;
+      img{
+        height: 66px;
+        width: 66px;
+        margin: 22px 0 0 22px;
+        border: 3px solid rgb(203, 184, 193);
+        border-radius: 50%;
+      }
+    }
+    .gerenxinxi{
+      padding-top: 14px;
+      color: white;
+      p{
+        margin: 7.2px 0;
+        font-weight: 100;
+        a{
+          text-decoration: none;
+          color: white;
+        }
+        span{
+          color: red;
+        }
+      }
+    }
+  }
+  .kapian{
+    ion-col{
+      padding: 0;
+    }
+    a{
+      width: 100%;
+      display: inline-block;
+      text-decoration: none;
+      img{
+        width: 33px;
+        height: 30px;
+        margin: 0 auto;
+      }
+      ion-card-content{
+        color: #333333;
+        font-size: 13px;
+      }
+    }
+
+  }
+}
